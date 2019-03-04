@@ -1,0 +1,5 @@
+function welcomeUser(){
+
+	alert("Welcome!");
+
+}
