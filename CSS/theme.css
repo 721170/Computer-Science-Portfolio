@@ -33,5 +33,6 @@ li a:hover {
 	background-color: rgb(110,175,60);
 	color: white;
 	text-align: center;
-	font-size: 32px;
+	font-size: 32px
+	padding: 30px 15px;
 }
