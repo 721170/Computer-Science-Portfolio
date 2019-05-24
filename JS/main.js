@@ -12,11 +12,10 @@ var product=num1*num2*num3
 
   }
 
-function encryption(){
+function encryption() {
 	
 var message = prompt("Please enter your message","");
 var passphrase = prompt("Please enter a passphrase","");
 var encrypted = CryptoJS.Rabbit.encrypt(message, passphrase);
-alert(encrypted) 
-	
+alert(encrypted) 	
 }
