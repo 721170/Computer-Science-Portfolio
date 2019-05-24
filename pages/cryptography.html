@@ -36,9 +36,9 @@ alert(encrypted);
 
 <script>
 function decryption() {	
-var message2 = prompt("Please enter your message","");
-var passphrase2 = prompt("Please enter the passphrase","");
-var decrypted = CryptoJS.AES.decrypt(message2, passphrase2);
+var message = prompt("Please enter your message","");
+var passphrase = prompt("Please enter the passphrase","");
+var decrypted = CryptoJS.Rabbit.decrypt(message, passphrase);
 alert(decrypted); 	
 }
 </script>
