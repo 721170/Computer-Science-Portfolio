@@ -37,7 +37,7 @@ alert(encrypted);
 function decryption() {	
 var message = prompt("Please enter your message","");
 var passphrase = prompt("Please enter the passphrase","");
-var decrypted = CryptoJS.AES.decrypt(passphrase, passphrase);
+var decrypted = CryptoJS.AES.decrypt(message, passphrase);
 alert(decrypted); 	
 }
 </script>
