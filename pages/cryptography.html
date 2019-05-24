@@ -1,1 +1,33 @@
+<!DOCTYPE html>
 
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/theme.css">
+	<title>Labeed's CompSci Portfolio</title>
+	<script src="../JS/main.js" type='text/javascript'></script>
+  <script src="../JS/rabbit.js" type='text/javascript'></script>
+</head>
+
+<body>
+
+	<h3>Labeed's Computer Science Portfolio</h3>
+	
+	<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="assignments.html">Assignments</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+  <li><a href="aboutme.html">About me</a></li>
+	</ul>
+	
+	<hr>
+
+<button class="button1" onclick="">
+var message = prompt("Please enter your message","");
+var passphrase = prompt("Please enter a passphrase","");
+var encrypted = CryptoJS.Rabbit.encrypt(message, passphrase);
+alert(encrypted) 
+</button>
+
+	
+</body>
+</html>
