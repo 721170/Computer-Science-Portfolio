@@ -9,6 +9,7 @@ var product=num1*num2*num3;
 	}else {
 		window.alert("The product is a negative number");
   }
+}	
 
 function encryption() {	
 var message = prompt("Please enter your message","");
