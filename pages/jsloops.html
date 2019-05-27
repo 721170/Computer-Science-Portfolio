@@ -35,12 +35,14 @@ Excercise 2 - Pattern
 
 <script>
 function patternLoop(){
- var a,b;
- for(a=1; a<=5; a++)
+var a,b;
+var symbol=parseInt(prompt("Which symbol would you like?"));	
+var c=parseInt(prompt("How many rows would you like?"));
+ for(a=1; a<=c; a++)
  {
   for(b=1; b<=a; b++)
  {
-   console.log('*');
+   console.log(symbol);
   }
    console.log('<br />');
   }
