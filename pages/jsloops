@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../CSS/theme.css">
+	<title>Labeed's CompSci Portfolio</title>
+	<script src="../JS/main.js"></script>
+</head>
+
+<body>
+
+	<h3>Labeed's Computer Science Portfolio</h3>
+	
+	<ul>
+  <li><a href="../index.html">Home</a></li>
+  <li><a href="assignments.html">Assignments</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+  <li><a href="aboutme.html">About me</a></li>
+	</ul>
+	
+	<hr>
+
+<button class="button1" onclick="biggerNum()">
+Excercise 1 - 
+</button>
+	
+<script>
+
+</script>
+
+
+<button class="button1" onclick="patternLoop()">
+Excercise 2 - Pattern
+</button>
+
+<script>
+
+</script>
+
+
+<button class="button1" onclick="orderNum()">
+Excercise 3 - Order numbers
+</button>
+	
+<script>
+
+</script>
+
+	
+</body>
+</html>
