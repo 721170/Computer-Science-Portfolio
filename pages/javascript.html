@@ -30,13 +30,13 @@ var num1=parseInt(prompt("Enter first number"));
 var num2=parseInt(prompt("Enter second number"));
 
 	if (num1>num2){
-		console.log(num1+" is the bigger number");
+		document.getElementById("demo").innerHTML = num1+" is the bigger number";
 	}else if(num2>num1){
-		console.log(num2+" is the bigger number");
+		document.getElementById("demo").innerHTML = num2+" is the bigger number";
 	}else if(num1==num2){
-		console.log("The numbers are the same");
+		document.getElementById("demo").innerHTML = "The numbers are the same";
 	}else{
-		console.log("You didn't enter two numbers");
+		document.getElementById("demo").innerHTML = "You didn't enter two numbers";
 	}
   }
 </script>
@@ -53,9 +53,9 @@ var num2=parseInt(prompt("Enter second number"));
 var num3=parseInt(prompt("Enter third number"));
 var product=num1*num2*num3;
 	if (product>0){
-		alert("The product is a positive number");
+		document.getElementById("demo").innerHTML = "The product is a positive number";
 	}else {
-		alert("The product is a negative number");
+		document.getElementById("demo").innerHTML = "The product is a negative number";
   }
 }
 </script>
@@ -72,7 +72,7 @@ var num2=parseInt(prompt("Enter second number"));
 var num3=parseInt(prompt("Enter third number"));
 var numbers = [num1, num2, num3];
 numbers.sort(function(a, b){return b-a});
-alert(numbers)
+document.getElementById("demo").innerHTML = numbers
 }
 </script>
 
