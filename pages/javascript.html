@@ -40,7 +40,8 @@ var num2=parseInt(prompt("Enter second number"));
 	}
   }
 </script>
-	
+
+
 <button class="button1" onclick="numberSign()">
 Excercise 2 - Sign checker
 </button>
@@ -52,11 +53,26 @@ var num2=parseInt(prompt("Enter second number"));
 var num3=parseInt(prompt("Enter third number"));
 var product=num1*num2*num3;
 	if (product>0){
-		window.alert("The product is a positive number");
+		alert("The product is a positive number");
 	}else {
-		window.alert("The product is a negative number");
+		alert("The product is a negative number");
   }
 }
+</script>
+
+
+<button class="button1" onclick="orderNum()">
+Excercise 3 - Order numbers
+</button>
+	
+<script>
+function orderNum(){
+var num1=parseInt(prompt("Enter first number"));
+var num2=parseInt(prompt("Enter second number"));
+var num3=parseInt(prompt("Enter third number"));
+var numbers = [num1, num2, num3];
+numbers.sort(function(a, b){return b-a});
+alert(numbers);
 </script>
 
 	
