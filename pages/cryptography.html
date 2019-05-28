@@ -24,13 +24,13 @@
 <button onclick="encryption()">Encrypt</button>
 
 <script>
-function Encryption(){
+function encryption(){
   var plaintext = prompt ("Enter message to encrypt");
   var ciphertext = ("");
   for (var i = 0; i < plaintext.length; i ++){
   ciphertext += plaintext[i] + "ABC";
-}
   alert(ciphertext) 
+ }
 </script>
 
 <button onclick="decryption()">Decrypt</button>
