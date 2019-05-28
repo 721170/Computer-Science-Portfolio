@@ -30,13 +30,13 @@ var num1=parseInt(prompt("Enter first number"));
 var num2=parseInt(prompt("Enter second number"));
 
 	if (num1>num2){
-		document.getElementById("demo").innerHTML = num1+" is the bigger number";
+		document.getElementById("output").innerHTML = num1+" is the bigger number";
 	}else if(num2>num1){
-		document.getElementById("demo").innerHTML = num2+" is the bigger number";
+		document.getElementById("output").innerHTML = num2+" is the bigger number";
 	}else if(num1==num2){
-		document.getElementById("demo").innerHTML = "The numbers are the same";
+		document.getElementById("output").innerHTML = "The numbers are the same";
 	}else{
-		document.getElementById("demo").innerHTML = "You didn't enter two numbers";
+		document.getElementById("output").innerHTML = "You didn't enter two numbers";
 	}
   }
 </script>
@@ -76,6 +76,7 @@ document.getElementById("demo").innerHTML = numbers
 }
 </script>
 
+<p id="output"> </p>	
 	
 </body>
 </html>
