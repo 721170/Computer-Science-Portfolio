@@ -53,9 +53,9 @@ var num2=parseInt(prompt("Enter second number"));
 var num3=parseInt(prompt("Enter third number"));
 var product=num1*num2*num3;
 	if (product>0){
-		document.getElementById("demo").innerHTML = "The product is a positive number";
+		document.getElementById("output").innerHTML = "The product is a positive number";
 	}else {
-		document.getElementById("demo").innerHTML = "The product is a negative number";
+		document.getElementById("output").innerHTML = "The product is a negative number";
   }
 }
 </script>
@@ -72,7 +72,7 @@ var num2=parseInt(prompt("Enter second number"));
 var num3=parseInt(prompt("Enter third number"));
 var numbers = [num1, num2, num3];
 numbers.sort(function(a, b){return b-a});
-document.getElementById("demo").innerHTML = numbers
+document.getElementById("output").innerHTML = numbers
 }
 </script>
 
