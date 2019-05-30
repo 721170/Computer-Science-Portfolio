@@ -42,7 +42,7 @@ function decryption() {
 var ciphertext = prompt("Enter message to decrypt");
 var passkey = prompt("Enter a passkey");  
 var plaintext = ("");
-for (var i = 0; i < plaintext.length; i ++){
+for (var i = 0; i < ciphertext.length; i ++){
 plaintext -= ciphertext[i] + passkey;
 document.getElementById("output").innerHTML = plaintext;
  }
