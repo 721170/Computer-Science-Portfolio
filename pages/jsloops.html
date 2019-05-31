@@ -37,12 +37,13 @@ Excercise 2 - Pattern
 function patternLoop(){
 var a,b;
 var symbol=parseInt(prompt("Enter a symbol:"));
+var string=symbol.toString();
 var c=parseInt(prompt("Enter the amount of rows:"));	
  for(a=1; a<=c; a++)
  {
   for(b=1; b<=a; b++)
  {
-   document.getElementById("output").innerHTML += symbol.toString();
+   document.getElementById("output").innerHTML += string;
   }
    document.getElementById("output").innerHTML += ('<br />');
   }
