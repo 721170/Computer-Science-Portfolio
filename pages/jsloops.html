@@ -26,6 +26,7 @@ Excercise 1 - Multiples Checker (Three & Five)
 	
 <script>
 function multipleschecker() {
+document.getElementById("output").innerHTML += "";
 var c=parseInt(prompt("Enter the number you want to go up to:"));
 	for (var i = 1; i < c; i++) {
 	if( ( i % 3 == 0 ) && ( i % 5 == 0 ) ) {
@@ -49,6 +50,7 @@ Excercise 2 - Pattern
 
 <script>
 function patternLoop(){
+document.getElementById("output").innerHTML += "";
 var a,b;
 var symbol=parseInt(prompt("Enter a symbol:"));
 var string=symbol.toString();
