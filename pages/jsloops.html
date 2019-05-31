@@ -20,12 +20,26 @@
 	
 	<hr>
 
-<button class="button1" onclick="biggerNum()">
-Excercise 1 - 
+<button class="button1" onclick="multipleschecker()">
+Excercise 1 - Multiples Checker (Three & Five)
 </button>
 	
 <script>
+function multipleschecker() {
 
+for (var i = 0; i <101; i++) {
+
+if( ( i % 3 == 0 ) && ( i % 5 == 0 ) ) {
+document.getElementById("output").innerHTML += "Threefive!";
+	}else if (i % 3 == 0) {
+document.getElementById("output").innerHTML += "Three!";
+	}else if (i % 5 == 0) {
+document.getElementById("output").innerHTML += "Five!";
+	}else {
+document.getElementById("output").innerHTML += (i);
+		}
+	}
+}
 </script>
 
 
