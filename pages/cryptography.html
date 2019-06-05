@@ -40,8 +40,9 @@ document.getElementById("output").innerHTML = ciphertext;
 <script>
 function decryption() {
 var ciphertext = prompt("Enter message to decrypt");
-var passkey = prompt("Enter a passkey");  
-var plaintext = ciphertext.replace(passkey,"");
+var passkey = prompt("Enter a passkey");
+var re = new RegExp(passkey)
+var plaintext = ciphertext.replace(re,"");
 document.getElementById("output").innerHTML = plaintext;
 }
 </script>
