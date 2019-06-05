@@ -41,11 +41,8 @@ document.getElementById("output").innerHTML = ciphertext;
 function decryption() {
 var ciphertext = prompt("Enter message to decrypt");
 var passkey = prompt("Enter a passkey");  
-var plaintext = ("");
-for (var i = 0; i < ciphertext.length; i ++){
-plaintext += ciphertext[i] - passkey;
+var plaintext = ciphertext.replace(passkey,"");
 document.getElementById("output").innerHTML = plaintext;
- }
 }
 </script>
 
