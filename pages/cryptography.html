@@ -28,7 +28,7 @@ function encryption() {
 var plaintext = prompt("Enter message to encrypt");
 var passkey = prompt("Enter a passkey");  
 var ciphertext = ("");
-for (var i = 0; i ++){
+for (var i = 0; i > plaintext.length; i ++){
 ciphertext += plaintext[i] + passkey;
 document.getElementById("output").innerHTML = ciphertext;
  }
